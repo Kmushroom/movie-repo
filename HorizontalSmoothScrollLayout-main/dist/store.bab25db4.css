@@ -1,0 +1,156 @@
+body {
+  overflow: auto;
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  background-color: #121a27;
+}
+
+.frame__title {
+  font-size: 25px;
+}
+
+.frame__links {
+  margin-left: 1100px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 110px;
+}
+
+h1 {
+  color: white;
+}
+
+/* 탭 */
+
+.tabs {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:1300px;
+  margin: 90px 0 0 0;
+  margin-bottom: 1000px;
+  height:100%;
+  /* background:#c9c9c9; */
+  /* padding:20px 30px; */
+}
+
+.tabs .tab-header {
+  height:60px;
+  display:flex;
+  align-items:center;
+}
+
+.tabs .tab-header > div {
+  width:calc(100% / 2);
+  text-align:center;
+  color:#888;
+  font-weight:600;
+  cursor:pointer;
+  font-size:14px;
+  text-transform:uppercase;
+  outline:none;
+}
+
+.tabs .tab-header > div > i {
+  display:block;
+  margin-bottom:5px;
+}
+
+.tabs .tab-header > div.active {
+  color:#00acee;
+}
+
+.tabs .tab-indicator {
+  position:relative;
+  width:calc(100% / 2);
+  height:5px;
+  background:#00acee;
+  left:0px;
+  border-radius:5px;
+  transition:all 500ms ease-in-out;
+}
+
+.tabs .tab-body {
+  position:relative;
+  height: 100%;
+  padding:10px 5px;
+}
+
+.tabs .tab-body > div {
+  position:absolute;
+  top:-200%;
+  opacity:0;
+  transform:scale(0.9);
+  transition:opacity 500ms ease-in-out 0ms,
+    transform 500ms ease-in-out 0ms;
+}
+
+.tabs .tab-body > div.active {
+  top:0px;
+  opacity:1;
+  transform:scale(1);
+}
+
+/* tab body content */
+
+.combo-container {
+  display: flex;
+  padding: 20px 10px 0 10px;
+  margin-bottom: 20px;
+  /* background-color: #00acee; */
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+.combo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.combo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.details {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgb(200, 200, 200);
+}
+
+.price {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.ddd {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*# sourceMappingURL=/store.bab25db4.css.map */

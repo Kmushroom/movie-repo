@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>JHK Movie</title>
+		<meta name="description" content="A horizontal smooth scroll layout powered by Locomotive Scroll" />
+		<meta name="keywords" content="locomotive scroll, smooth scroll, horizontal, layout, web design, javascript, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/vxy2fer.css">
+		<link rel="stylesheet" type="text/css" href="./css/main/base.css" />
+		<link rel="stylesheet" type="text/css" href="./css/main/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main/ticketing.css" />
+    <script src="https://kit.fontawesome.com/fcc8b9d1b9.js" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-4 loading">
+		<div class="frame"><!-- don't put fixed elements into the scroll container! -->
+			<a class="frame__title" href="./index.html">JHK</a>
+			<div class="frame__demos">
+				<a class="frame__demo " href="movie.html">영화</a>
+				<a class="frame__demo frame__demo--current" href="ticketing.html">예매</a>
+				<a class="frame__demo" href="store.html">스토어</a>
+			</div>
+			<div class="frame__links">
+				<a href="./login.html">로그인</a>
+				<a href="./signup.html">회원가입</a>
+			</div>
+		</div>
+		<main data-scroll-container>
+      <div class="wrapper">
+        <div class="container">
+          <div>
+            <h1>예매하기</h1>
+          </div>
+          <div class="ticketing-wrapper">
+            <div class="movie-title box">
+              <div class="top">
+                <div class="movie">영화</div>
+                <div class="movie-number">9</div>
+                <select>
+                  <option value="cgv">CGV</option>
+                  <option value="megabox">메가박스</option>
+                  <option value="lot">롯데시네마</option>
+                </select>
+              </div>
+              <div class="movie-list">
+                <button class="item">
+                  <div class="rating">12</div>
+                  <div class="title">블랙 팬서:와칸다포에버</div>
+                </button>
+                <button class="item">
+                  <div class="rating">12</div>
+                  <div class="title">데시벨</div>
+                </button>
+                <button class="item">
+                  <div class="rating">12</div>
+                  <div class="title">동감</div>
+                </button>
+                <button class="item">
+                  <div class="rating">12</div>
+                  <div class="title">아마겟돈 타임</div>
+                </button>
+                <button class="item">
+                  <div class="rating">12</div>
+                  <div class="title">올빼미</div>
+                </button>
+                <button class="item">
+                  <div class="rating">12</div>
+                  <div class="title">본즈 앤 올</div>
+                </button>
+              </div>
+            </div>
+            <div class="movie-time box">
+              <div class="top">
+                <i class="fa-regular fa-calendar-days"></i>
+                <div class="day">2022-11-28</div>
+              </div>
+              <div class="time-list">
+                <div class="item-conatainer">
+                  <div class="item">
+                    <div class="rating">12</div>
+                    <div class="title">블랙 팬서:와칸다포에버</div>
+                  </div>
+                  <div class="time-item-sub">
+                    <div class="D">2D 디지털</div>
+                    <div class=" locatin">
+                      <div class="floor">3관 (1층)</div>
+                      <div class="seat">총 226석</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="time-container">
+                  <div class="time-square">
+                    <button class="square">13:00 ~16:01</button>
+                    <div class="is-reservation">예약마감</div>
+                  </div>
+                  <div class="time-square">
+                    <button class="square true">13:00 ~16:01</button>
+                    <div class="is-reservation true">예약마감</div>
+                  </div>
+                  <div class="time-square">
+                    <button class="square">13:00 ~16:01</button>
+                    <div class="is-reservation">예약마감</div>
+                  </div>
+                </div>
+                <div class="item-conatainer">
+                  <div class="item">
+                    <div class="rating">12</div>
+                    <div class="title">데시벨</div>
+                  </div>
+                  <div class="time-item-sub">
+                    <div class="D">2D 디지털</div>
+                    <div class=" locatin">
+                      <div class="floor">2관 (1층)</div>
+                      <div class="seat">총 160석</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="time-container">
+                  <div class="time-square">
+                    <button class="square">13:00 ~16:01</button>
+                    <div class="is-reservation">예약마감</div>
+                  </div>
+                </div>
+                <div class="item-conatainer">
+                  <div class="item">
+                    <div class="rating">12</div>
+                    <div class="title">동감</div>
+                  </div>
+                  <div class="time-item-sub">
+                    <div class="D">2D 디지털</div>
+                    <div class=" locatin">
+                      <div class="floor">2관 (1층)</div>
+                      <div class="seat">총 160석</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="time-container">
+                  <div class="time-square">
+                    <button class="square">13:00 ~16:01</button>
+                    <div class="is-reservation">예약마감</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="movie-info">
+              <div class="info">
+                <img src="./img/demo4/1.jpg" width="210px">
+                <div>
+                  <div class="info-title">블랙 팬서:와칸다포에버</div>
+                  <div class="info-explain">상영</div>
+                  <div class="info-explain">일시</div>
+                  <div class="info-explain">인원</div>
+                  <div class="info-explain">좌석</div>
+                  <div class="is-seat">좌석 선택 가능</div>
+                </div>
+              </div>
+              <div class="result">
+                <div class="total">
+                  <span class="total-amount">총 합계</span>
+                  <span class="amount">0원</span>
+                </div>
+                <a href="../SeatPreview-master/index.html"><button class="select-seat">좌석 선택</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</main>
+		<svg class="cursor" width="20" height="20" viewBox="0 0 20 20">
+			<circle class="cursor__inner" cx="10" cy="10" r="5"/>
+		</svg>
+		<script src="js/main/index.js"></script>
+	</body>
+</html>

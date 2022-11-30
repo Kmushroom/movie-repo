@@ -1,0 +1,268 @@
+body {
+  overflow: auto;
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  background-color: #121a27;
+}
+
+.frame__title {
+  font-size: 25px;
+}
+
+.frame__links {
+  margin-left: 1100px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 110px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 90px 0 50px 0;
+}
+
+h1 {
+  color: white;
+}
+
+.ticketing-wrapper {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border: 1px solid white;
+}
+
+.movie-title {
+  width: 25%;
+}
+
+.box {
+  height: 100%;
+  padding: 20px 30px;
+  border-right: 1px solid white;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.movie-number {
+  margin-right: 90px;
+  color: #F36E00;
+}
+
+select {
+  width: 100px;
+  height: 30px;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: inherit;
+  color: #4a525e;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.item:focus {
+  border-radius: 5px;
+  background-color: #afafaf;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 23px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background-color: #40ADDE;
+}
+
+
+.movie-time {
+  width: 40%;
+  overflow: auto;
+}
+
+.movie-time::-webkit-scrollbar{
+  width: 4px;
+}
+
+/* 스크롤바 막대 설정*/
+.movie-time::-webkit-scrollbar-thumb{
+  height: 2%;
+  border-radius: 25px;
+  background: #8e8e8e;
+}
+
+i {
+  font-size: 23px;
+}
+
+.day {
+  margin-right: 350px;
+}
+
+.time-item-sub {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.locatin {
+  width: 140px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.time-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+ .time-square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #4a525e;
+  font-size: 17px;
+  font-weight: 600;
+  white-space:pre-line;
+  word-break:break-all;
+}
+
+.square:focus {
+  color: #afafaf;
+  border: 1px solid #afafaf;
+}
+
+.is-reservation {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* .true {
+  color: white;
+}
+
+.s {
+  border: 1px solid white;
+} */
+
+.movie-info {
+  padding: 40px 30px;
+}
+
+.info {
+  display: flex;
+}
+
+.box:nth-child(3) {
+  border: none;
+  /* background-color: #40ADDE; */
+}
+
+img {
+  margin-right: 30px;
+}
+
+.info-title {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.info-explain {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.is-seat {
+  margin: 5px 0 0 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+
+.total {
+  margin-right: 10px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.total-amount {
+  margin-right: 10px;
+  color: white;
+}
+
+.amount {
+  color: #F36E00;
+}
+
+.select-seat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #3e3e3e;
+}
+
+/*# sourceMappingURL=/ticketing.86fecd9f.css.map */
